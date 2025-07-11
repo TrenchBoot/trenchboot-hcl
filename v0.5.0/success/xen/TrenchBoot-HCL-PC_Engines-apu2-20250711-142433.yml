@@ -1,0 +1,37 @@
+---
+layout:
+  'hcl'
+type:
+  'Desktop'
+tpm:
+  '2.0'
+brand: |
+  PC Engines
+model: |
+  apu2
+bios: |
+  v24.05.00.01
+cpu: |
+  AMD GX-412TC SOC
+cpu-short: |
+  FIXME
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Family 16h (Models 30h-3fh) Processor Root Complex [1022:1566]
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      yes
+    tb-distro: |
+      0.5.0
+    boot-flow:
+      xen
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
+    xen: |
+      4.17.4
+
