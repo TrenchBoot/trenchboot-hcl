@@ -1,0 +1,34 @@
+---
+layout:
+  'hcl'
+type:
+  'Mini PC'
+tpm:
+  '2.0'
+brand: |
+  LENOVO
+model: |
+  10RRS23209
+bios: |
+  M1UKT77A
+cpu: |
+  Intel(R) Core(TM) i5-8500T CPU @ 2.10GHz
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers [8086:3ec2] (rev 07)
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      no
+    tb-distro: |
+      0.5.0
+    boot-flow:
+      linux
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
