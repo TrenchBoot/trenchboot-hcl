@@ -1,0 +1,34 @@
+---
+layout:
+  'hcl'
+type:
+  'Desktop'
+tpm:
+  '2.0'
+brand: |
+  ASRock
+model: |
+  Z790 PG Lightning
+bios: |
+  14.01
+cpu: |
+  13th Gen Intel(R) Core(TM) i5-13600KF
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation Device [8086:a704] (rev 01)
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      no
+    tb-distro: |
+      0.5.0
+    boot-flow:
+      linux
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
