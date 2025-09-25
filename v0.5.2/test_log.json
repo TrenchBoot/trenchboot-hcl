@@ -1,0 +1,527 @@
+[
+{
+"Testnumber": 0,
+"Testname": "Intel CPU",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 1,
+"Testname": "Weybridge or later",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 2,
+"Testname": "CPU supports TXT",
+"Result": "FAIL",
+"Error": "CPU is not listed in any Intel CPU list",
+"Status": "Implemented"
+},
+{
+"Testnumber": 3,
+"Testname": "TXT register space accessible",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 4,
+"Testname": "CPU supports SMX",
+"Result": "FAIL",
+"Error": "CPU does not support SMX",
+"Status": "Implemented"
+},
+{
+"Testnumber": 5,
+"Testname": "CPU supports VMX",
+"Result": "FAIL",
+"Error": "CPU does not support VMX",
+"Status": "Implemented"
+},
+{
+"Testnumber": 6,
+"Testname": "IA32_FEATURE_CONTROL",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 7,
+"Testname": "TXT not disabled by BIOS",
+"Result": "FAIL",
+"Error": "TXT disabled",
+"Status": "Implemented"
+},
+{
+"Testnumber": 8,
+"Testname": "BIOS ACM has run",
+"Result": "FAIL",
+"Error": "Bootstatus register incorrect",
+"Status": "Implemented"
+},
+{
+"Testnumber": 9,
+"Testname": "IBB is trusted",
+"Result": "FAIL",
+"Error": "IBB not trusted",
+"Status": "Implemented"
+},
+{
+"Testnumber": 10,
+"Testname": "TXT registers are locked",
+"Result": "FAIL",
+"Error": "TXT register space is NOT locked",
+"Status": "Implemented"
+},
+{
+"Testnumber": 11,
+"Testname": "IA32 debug interface is disabled",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 12,
+"Testname": "TPM connection",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 13,
+"Testname": "TPM is present",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 14,
+"Testname": "TPM NVRAM is locked",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 15,
+"Testname": "PS Index has correct config",
+"Result": "FAIL",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 16,
+"Testname": "AUX Index has correct config",
+"Result": "INTERNAL_ERROR",
+"Error": "handle 1, error code 0xb : the handle is not correct for the use",
+"Status": "Implemented"
+},
+{
+"Testnumber": 17,
+"Testname": "AUX Index has the correct hash",
+"Result": "INTERNAL_ERROR",
+"Error": "handle 1, error code 0xb : the handle is not correct for the use",
+"Status": "Implemented"
+},
+{
+"Testnumber": 18,
+"Testname": "PO Index has correct config",
+"Result": "FAIL",
+"Error": "PO index not set",
+"Status": "Implemented"
+},
+{
+"Testnumber": 19,
+"Testname": "PS index has valid LCP Policy",
+"Result": "FAIL",
+"Error": "PS index not set",
+"Status": "Implemented"
+},
+{
+"Testnumber": 20,
+"Testname": "PO index has valid LCP Policy",
+"Result": "FAIL",
+"Error": "PO index not set",
+"Status": "Implemented"
+},
+{
+"Testnumber": 21,
+"Testname": "PCR 0 is set correctly",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 22,
+"Testname": "NPW mode is deactivated in PS policy",
+"Result": "DEPENDENCY_FAILED",
+"Error": "PS index has valid LCP Policy failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 23,
+"Testname": "TXT mode is valid",
+"Result": "DEPENDENCY_FAILED",
+"Error": "PS index has valid LCP Policy failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 24,
+"Testname": "Valid FIT vector",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 25,
+"Testname": "Valid FIT",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 26,
+"Testname": "Microcode update entry in FIT",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 27,
+"Testname": "BIOS ACM entry in FIT",
+"Result": "FAIL",
+"Error": "Fit has no Startup AC Module Entry, but at least one is required",
+"Status": "Implemented"
+},
+{
+"Testnumber": 28,
+"Testname": "IBB entry in FIT",
+"Result": "FAIL",
+"Error": "Fit has no BIOS Startup Module Entry, but at least one is required",
+"Status": "Implemented"
+},
+{
+"Testnumber": 29,
+"Testname": "BIOS Policy entry in FIT",
+"Result": "DEPENDENCY_FAILED",
+"Error": "TXT mode is valid failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 30,
+"Testname": "IBB covers reset vector",
+"Result": "DEPENDENCY_FAILED",
+"Error": "IBB entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 31,
+"Testname": "IBB covers FIT vector",
+"Result": "DEPENDENCY_FAILED",
+"Error": "IBB entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 32,
+"Testname": "IBB covers FIT",
+"Result": "DEPENDENCY_FAILED",
+"Error": "IBB entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 33,
+"Testname": "IBBs doesn't overlap each other",
+"Result": "DEPENDENCY_FAILED",
+"Error": "IBB entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 34,
+"Testname": "BIOS ACM does not overlap IBBs",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 35,
+"Testname": "IBB and BIOS ACM below 4GiB",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 36,
+"Testname": "TXT not disabled by LCP Policy",
+"Result": "INTERNAL_ERROR",
+"Error": "Indexed IO type pointer are not supported",
+"Status": "Implemented"
+},
+{
+"Testnumber": 37,
+"Testname": "BIOSACM header valid",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 38,
+"Testname": "BIOSACM size check",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 39,
+"Testname": "BIOSACM alignment check",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 40,
+"Testname": "BIOSACM matches chipset",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 41,
+"Testname": "BIOSACM matches processor",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 42,
+"Testname": "SINIT/BIOS ACM has no NPW flag set",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 43,
+"Testname": "SINIT ACM supports used TPM",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS ACM entry in FIT failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 44,
+"Testname": "TXT heap ranges valid",
+"Result": "FAIL",
+"Error": "Heap must be at least 917504",
+"Status": "Implemented"
+},
+{
+"Testnumber": 45,
+"Testname": "TXT public area reserved in e820",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 46,
+"Testname": "TXT private area reserved in e820",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 47,
+"Testname": "TXT memory reserved in e820",
+"Result": "DEPENDENCY_FAILED",
+"Error": "TXT heap ranges valid failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 48,
+"Testname": "MMIO TPMDecode space reserved in e820",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 49,
+"Testname": "TXT memory in a DMA protected range",
+"Result": "DEPENDENCY_FAILED",
+"Error": "TXT heap ranges valid failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 50,
+"Testname": "TXT DPR register locked",
+"Result": "FAIL",
+"Error": "TXTDPR is not locked",
+"Status": "Implemented"
+},
+{
+"Testnumber": 51,
+"Testname": "CPU DPR equals hostbridge DPR",
+"Result": "DEPENDENCY_FAILED",
+"Error": "Hostbridge is supported failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 52,
+"Testname": "CPU hostbridge DPR register locked",
+"Result": "DEPENDENCY_FAILED",
+"Error": "Hostbridge is supported failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 53,
+"Testname": "TXT region contains SINIT ACM",
+"Result": "INTERNAL_ERROR",
+"Error": "EOF",
+"Status": "Implemented"
+},
+{
+"Testnumber": 54,
+"Testname": "SINIT ACM matches chipset",
+"Result": "DEPENDENCY_FAILED",
+"Error": "TXT region contains SINIT ACM failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 55,
+"Testname": "SINIT ACM matches CPU",
+"Result": "DEPENDENCY_FAILED",
+"Error": "TXT region contains SINIT ACM failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 56,
+"Testname": "SINIT ACM startup successful",
+"Result": "FAIL",
+"Error": "SINIT Error detected",
+"Status": "Implemented"
+},
+{
+"Testnumber": 57,
+"Testname": "BIOS DATA REGION present",
+"Result": "INTERNAL_ERROR",
+"Error": "EOF",
+"Status": "Implemented"
+},
+{
+"Testnumber": 58,
+"Testname": "BIOS DATA REGION valid",
+"Result": "DEPENDENCY_FAILED",
+"Error": "BIOS DATA REGION present failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 59,
+"Testname": "CPU supports MTRRs",
+"Result": "FAIL",
+"Error": "CPU does not have MTRR",
+"Status": "Implemented"
+},
+{
+"Testnumber": 60,
+"Testname": "CPU supports SMRRs",
+"Result": "DEPENDENCY_FAILED",
+"Error": "TXT server mode enabled failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 61,
+"Testname": "SMRR covers SMM memory",
+"Result": "DEPENDENCY_FAILED",
+"Error": "Hostbridge is supported failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 62,
+"Testname": "SMRR protection active",
+"Result": "DEPENDENCY_FAILED",
+"Error": "CPU supports SMRRs failed",
+"Status": "Implemented"
+},
+{
+"Testnumber": 63,
+"Testname": "IOMMU/VT-d active",
+"Result": "INTERNAL_ERROR",
+"Error": "Cannot access MSR IA32_SMRR_PHYSBASE: input/output error",
+"Status": "Implemented"
+},
+{
+"Testnumber": 64,
+"Testname": "TXT server mode enabled",
+"Result": "INTERNAL_ERROR",
+"Error": "Cannot access MSR IA32_MTRRCAP: input/output error",
+"Status": "Implemented"
+},
+{
+"Testnumber": 65,
+"Testname": "ACPI RSDP exists and has valid checksum",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 66,
+"Testname": "ACPI MCFG is present",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 67,
+"Testname": "ACPI DMAR is present",
+"Result": "INTERNAL_ERROR",
+"Error": "ACPI table not found",
+"Status": "Implemented"
+},
+{
+"Testnumber": 68,
+"Testname": "ACPI DMAR is valid",
+"Result": "INTERNAL_ERROR",
+"Error": "ACPI table not found",
+"Status": "Implemented"
+},
+{
+"Testnumber": 69,
+"Testname": "ACPI MADT is present",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 70,
+"Testname": "ACPI MADT is valid",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 72,
+"Testname": "ACPI RSDT is valid",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 73,
+"Testname": "ACPI XSDT present",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 74,
+"Testname": "ACPI XSDT is valid",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+},
+{
+"Testnumber": 75,
+"Testname": "ACPI RSDT or XSDT is valid",
+"Result": "PASS",
+"Error": "",
+"Status": "Implemented"
+}
+]
