@@ -99,7 +99,7 @@ selecting one of the `TrenchBoot` boot entries.
 - login as: `root`
 - execute `trenchboot-hcl-report` command
 - send a Pull Request with resulting `.yml` file and (optionally) `.cpio.gz`
-file to: `<version>/failure/linux` or `<version>/failure/xen` directory in
+file to: `failure/linux/<version>` or `failure/xen/<version>` directory in
 this repository, depending on which of the options failed to boot
 
 #### Intel
