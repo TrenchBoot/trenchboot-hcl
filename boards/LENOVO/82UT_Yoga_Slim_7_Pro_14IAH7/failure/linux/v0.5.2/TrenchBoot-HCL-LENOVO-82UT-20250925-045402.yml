@@ -1,0 +1,40 @@
+---
+layout:
+  'hcl'
+type:
+  'Notebook'
+tpm:
+  '2.0'
+brand: |
+  LENOVO
+model: |
+  82UT
+version: |
+  Yoga Slim 7 Pro 14IAH7
+bios-vendor: |
+  LENOVO
+bios-version: |
+  KRCN25WW
+cpu: |
+  12th Gen Intel(R) Core(TM) i5-12500H
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation Device [8086:4621] (rev 02)
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      failure
+    tb-distro: |
+      0.5.2
+    boot-flow:
+      linux
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
+    txt-error-code: |
+      0x00000000

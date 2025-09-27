@@ -1,0 +1,42 @@
+---
+layout:
+  'hcl'
+type:
+  'Desktop'
+tpm:
+  '2.0'
+brand: |
+  ASRock
+model: |
+  Z790 PG Lightning
+version: |
+  To Be Filled By O.E.M.
+bios-vendor: |
+  American Megatrends International, LLC.
+bios-version: |
+  14.01
+cpu: |
+  13th Gen Intel(R) Core(TM) i5-13600KF
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation Device [8086:a704] (rev 01)
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      failure
+    tb-distro: |
+      0.5.2
+    boot-flow:
+      xen
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
+    xen: |
+      4.17.4
+    txt-error-code: |
+      0x00000000
