@@ -1,0 +1,42 @@
+---
+layout:
+  'hcl'
+type:
+  'Tablet'
+tpm:
+  '2.0'
+brand: |
+  GETAC
+model: |
+  UX10G2
+version: |
+    
+bios-vendor: |
+  INSYDE Corp.
+bios-version: |
+  R1.12.070520 
+cpu: |
+  Intel(R) Core(TM) i5-10310U CPU @ 1.70GHz
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation Comet Lake-U v1 4c Host Bridge/DRAM Controller [8086:9b61] (rev 0c)
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      failure
+    tb-distro: |
+      0.5.2
+    boot-flow:
+      linux
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
+    txt-error-code: |
+      0xc00014f1
+    failed-boot-entry: |
+      linux

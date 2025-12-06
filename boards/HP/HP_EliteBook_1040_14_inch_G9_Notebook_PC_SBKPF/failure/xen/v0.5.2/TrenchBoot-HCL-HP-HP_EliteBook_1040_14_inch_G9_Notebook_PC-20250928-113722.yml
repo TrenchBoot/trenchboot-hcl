@@ -1,0 +1,42 @@
+---
+layout:
+  'hcl'
+type:
+  'Notebook'
+tpm:
+  '2.0'
+brand: |
+  HP
+model: |
+  HP EliteBook 1040 14 inch G9 Notebook PC
+version: |
+  SBKPF
+bios-vendor: |
+  HP
+bios-version: |
+  U70 Ver. 01.09.00
+cpu: |
+  12th Gen Intel(R) Core(TM) i5-1245U
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation Device [8086:4601] (rev 04)
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      failure
+    tb-distro: |
+      0.5.2
+    boot-flow:
+      xen
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
+    txt-error-code: |
+      0xc0001c21
+    failed-boot-entry: |
+      xen
