@@ -1,0 +1,42 @@
+---
+layout:
+  'hcl'
+type:
+  'Notebook'
+tpm:
+  '2.0'
+brand: |
+  LENOVO
+model: |
+  20HRS11400
+version: |
+  ThinkPad X1 Carbon 5th
+bios-vendor: |
+  LENOVO
+bios-version: |
+  N1MET78W (1.63 )
+cpu: |
+  Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+cpu-short: |
+  FIXME
+chipset: |
+  Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers [8086:5904] (rev 02)
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      success
+    tb-distro: |
+      0.5.2
+    boot-flow:
+      xen
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
+    xen: |
+      4.17.4
+    txt-error-code: |
+      0x00000000
