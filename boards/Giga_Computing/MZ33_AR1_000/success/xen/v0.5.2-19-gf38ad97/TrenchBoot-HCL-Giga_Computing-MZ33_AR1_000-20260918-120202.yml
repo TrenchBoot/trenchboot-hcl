@@ -1,0 +1,43 @@
+---
+layout:
+  'hcl'
+type:
+  'Main Server Chassis'
+tpm:
+  '2.0'
+brand: |
+  Giga Computing
+model: |
+  MZ33-AR1-000
+version: |
+  0100
+bios-vendor: |
+  GIGABYTE
+bios-version: |
+  R24_F17
+cpu: |
+  AMD EPYC 9015 8-Core Processor
+cpu-short: |
+  AMD EPYC 9015 (Zen 5, Turin)
+chipset: |
+  Advanced Micro Devices, Inc. [AMD] Device [1022:153a]
+chipset-short: |
+  AMD EPYC Turin SoC root complex
+versions:
+  - works:
+      success
+    tb-distro: |
+      0.5.2-19-gf38ad97
+    boot-flow:
+      xen
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      Built from zarhus/meta-trenchboot branch msi-gigabyte at f38ad97
+      (v0.5.2-19-gf38ad97), which carries the AMD Turin support for SKL,
+      GRUB and Xen. The v0.5.2 release image does not reproduce this
+      result. PSP-assisted launch, PSP version 4.
+    credit: |
+      Michał Iwanicki
+    xen: |
+      4.17.4
