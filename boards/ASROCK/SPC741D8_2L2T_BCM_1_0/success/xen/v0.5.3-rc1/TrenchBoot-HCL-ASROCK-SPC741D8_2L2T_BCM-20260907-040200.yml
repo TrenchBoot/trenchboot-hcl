@@ -1,0 +1,42 @@
+---
+layout:
+  'hcl'
+type:
+  'Desktop'
+tpm:
+  '2.0'
+brand: |
+  ASROCK
+model: |
+  SPC741D8-2L2T/BCM
+version: |
+  1.0
+bios-vendor: |
+  3mdeb
+bios-version: |
+  Dasharo (coreboot+UEFI) v0.9.1-rc1
+cpu: |
+  Intel(R) Xeon(R) Silver 4410Y
+cpu-short: |
+  FIXME
+chipset: |
+
+chipset-short: |
+  FIXME
+versions:
+  - works:
+      success
+    tb-distro: |
+      0.5.3-rc1
+    boot-flow:
+      xen
+    kernel: |
+      6.13.0-yocto-standard
+    remark: |
+      FIXME
+    credit: |
+      FIXAUTHOR
+    xen: |
+      4.23-unstable
+    txt-error-code: |
+      0x00000000
